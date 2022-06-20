@@ -1,7 +1,7 @@
-package com.victorvision.i2c_demo;
+package com.victorvision.i2c;
 
-import com.hyperlcd.iicdemo.I2c;
 import android.util.Log;
+
 import java.io.DataOutputStream;
 import java.io.OutputStream;
 

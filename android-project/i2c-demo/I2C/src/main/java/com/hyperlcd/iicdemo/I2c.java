@@ -1,7 +1,9 @@
 package com.hyperlcd.iicdemo;
 
+import com.victorvision.i2c.I2CManager;
+
 /**
- * This is an I2C operation class
+ * Base I2C functionality. This class should not be used directly (use {@link I2CManager} instead).
  */
 public class I2c {
 	public native int open(String nodeName);

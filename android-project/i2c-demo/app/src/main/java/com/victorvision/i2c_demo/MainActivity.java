@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.victorvision.i2c.I2CManager;
+import com.victorvision.i2c.PortNotOpenException;
+
 public class MainActivity extends AppCompatActivity {
 
     private final String TAG = "I²C Demo";
